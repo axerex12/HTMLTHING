@@ -1,0 +1,70 @@
+.container {
+    width: 80%;
+    margin: auto;
+    background-image: url("Sprinkle.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "Raleway", sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: gray;
+    align-items: center;
+    height: 3rem;
+}
+
+main {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+h1 {
+    background-color: #5a5757;
+    color: floralwhite;
+    width: 20%;
+    height: 3rem;
+    display: block;
+    text-align: center;
+    line-height: 3rem;
+    text-decoration: none;
+}
+
+h2 {
+    text-align: left;
+    font-size: 50px;
+    margin: 0;
+    padding-left: 1rem;
+}
+
+.center {
+    width: 50%;
+    max-width: 500px;
+    padding-top: 1rem;
+    padding-right: 1rem;
+}
+
+ul {
+    width: 100%;
+    display: inline-flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+p {
+    font-size: 30px;
+    padding-left: 1rem;
+}
+
+.text-content {
+    width: 50%;
+}
+
+li a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+
+}

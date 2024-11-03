@@ -1,0 +1,92 @@
+.container {
+    width: 80%;
+    margin: auto;
+    background-image: url("Sprinkle.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "Raleway", sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: gray;
+    align-items: center;
+    height: 3rem;
+}
+
+h1 {
+    background-color: #5a5757;
+    color: floralwhite;
+    width: 20%;
+    height: 3rem;
+    display: block;
+    text-align: center;
+    line-height: 3rem;
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+    padding: 6rem 0 0 0;
+    font-size: 50px;
+    margin: 0;
+}
+
+.hidden-heading {
+    display: none;
+}
+
+h3 {
+    padding: 0 0 0 3rem;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+article {
+    width: calc(100% / 3 - 20px);
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    background-color: #5a5757;
+    margin: 10px;
+}
+
+figure {
+    float: left;
+    border-radius: 8px;
+}
+
+img {
+    border-radius: 8px 8px 0 0;
+    width: 100%;
+    height: auto;
+}
+
+ul {
+    width: 100%;
+    display: inline-flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+p {
+    text-align: center;
+}
+
+li a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
